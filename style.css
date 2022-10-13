@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    font-size: 3em;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.score-board {
+    width: auto;
+    background: black;
+    font-size: 2em;
+    color: white;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 1em 0;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
