@@ -48,5 +48,9 @@ function play() {
         })
     })
 }
-
 play()
+
+function reset() {
+    board.textContent = ""
+    results.textContent = ""
+}

@@ -31,10 +31,55 @@ button {
     margin: 1em 0;
 }
 
+.score-board .w-or-l {
+    text-decoration: underline;
+}
+
+.results {
+    margin-bottom: .5em;
+    display: block;
+}
+
 .green {
     color: green;
 }
 
 .red {
     color: red;
+}
+
+@media (max-width: 800px) {
+    .w-or-l {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 500px) {
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 2em;
+        border-radius: 10px;
+    }
+
+    .score-board {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 380px) {
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+    }
+
+    .score-board {
+        font-size: .9em;
+    }
+
+    .w-or-l {
+        font-size: 1.2em;
+    }
+
 }
